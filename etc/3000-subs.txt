@@ -1,0 +1,1396 @@
+ 1650  pdfgrep 'n.' The_Oxford_3000.pdf 
+ 1651  pdfgrep 'n\.' The_Oxford_3000.pdf 
+ 1652  pdfgrep ' n\.' The_Oxford_3000.pdf 
+ 1653  pdfgrep ' n\.' The_Oxford_3000.pdf > 3000-n.txt
+
+       sed 's/A1/\n/g; s/A2/\n/g; s/B1/\n/g; s/B2/\n/g; s/  //g' 3000-n.txt | grep ' n.' | grep -v ',' | wc -l  > 3000-subs.txt
+
+1387
+
+agency n. 
+ability n. 
+agenda n. 
+ attitude n. 
+ agent n. 
+ apartment n. 
+ attraction n. 
+ app n. 
+audience n. 
+ agreement n. 
+August n. 
+aunt n. 
+author n. 
+ appearance n. 
+authority n. 
+ apple n. 
+ autumn n. 
+ air n. 
+ application n. 
+accident n. 
+ aircraft n. 
+accommodation n. 
+airline n. 
+ appointment n. 
+airport n. 
+award n. 
+alarm n. 
+account n. 
+ album n. 
+ alcohol n. 
+ approval n. 
+ baby n. 
+achievement n. 
+ April n. 
+ background n. 
+ architect n. 
+ architecture n. 
+bacteria n. 
+area n. 
+action n. 
+argument n. 
+bag n. 
+activity n. 
+arm n. 
+actor n. 
+ ball n. 
+actress n. 
+alternative n. 
+arms n. 
+ army n. 
+banana n. 
+ band n. 
+ad n. 
+ bank (money) n. 
+ arrangement n. 
+ bank (river) n. 
+ambition n. 
+bar n. 
+addition n. 
+ arrival n. 
+ barrier n. 
+address n. 
+ amount n. 
+ art n. 
+ baseball n. 
+administration n. 
+ article n. 
+ analysis n. 
+ artist n. 
+basis n. 
+adult n. 
+ anger n. 
+ basketball n. 
+angle n. 
+ bath n. 
+ bathroom n. 
+advantage n. 
+animal n. 
+battery n. 
+adventure n. 
+ankle n. 
+ aspect n. 
+battle n. 
+anniversary n. 
+advertisement n. 
+assessment n. 
+beach n. 
+advertising n. 
+announcement n. 
+assignment n. 
+bean n. 
+advice n. 
+ bear (animal) n. 
+affair n. 
+ association n. 
+ beauty n. 
+afternoon n. 
+ athlete n. 
+ bed n. 
+atmosphere n. 
+bedroom n. 
+bee n. 
+beef n. 
+age n. 
+ beer n. 
+ branch n. 
+ carpet n. 
+ classroom n. 
+ carrot n. 
+ clause n. 
+beginning n. 
+ bread n. 
+ cartoon n. 
+behaviour n. 
+ breakfast n. 
+ case n. 
+ breast n. 
+cash n. 
+being n. 
+ breath n. 
+belief n. 
+ castle n. 
+ client n. 
+ breathing n. 
+ cat n. 
+climate n. 
+bell n. 
+bride n. 
+bridge n. 
+category n. 
+ clock n. 
+belt n. 
+CD n. 
+ ceiling n. 
+benefit n. 
+ celebration n. 
+cloth n. 
+ celebrity n. 
+clothes n. 
+cell n. 
+ clothing n. 
+brother n. 
+ cent n. 
+ cloud n. 
+club n. 
+ centre n. 
+clue n. 
+bicycle n. 
+ bubble n. 
+century n. 
+coach n. 
+ budget n. 
+ceremony n. 
+ coal n. 
+bike n. 
+coast n. 
+bill n. 
+ building n. 
+coat n. 
+billion number 
+ bullet n. 
+chain n. 
+ code n. 
+bin n. 
+ bunch n. 
+ chair n. 
+ coffee n. 
+biology n. 
+ chairman n. 
+ coin n. 
+bird n. 
+challenge n. 
+birth n. 
+ bus n. 
+ champion n. 
+birthday n. 
+bush n. 
+chance n. 
+ colleague n. 
+biscuit n. 
+ business n. 
+bit n. 
+ businessman n. 
+ channel n. 
+collection n. 
+chapter n. 
+college n. 
+character n. 
+colour n. 
+ butter n. 
+ button n. 
+ column n. 
+ charity n. 
+combination n. 
+chart n. 
+blog n. 
+cable n. 
+ comedy n. 
+cafe n. 
+blood n. 
+ cake n. 
+cheese n. 
+ comment n. 
+board n. 
+chef n. 
+boat n. 
+camera n. 
+body n. 
+chemistry n. 
+chest n. 
+commitment n. 
+camping n. 
+ chicken n. 
+committee n. 
+bond n. 
+campus n. 
+bone n. 
+child n. 
+book n. 
+ can2 n. 
+childhood n. 
+boot n. 
+chip n. 
+ communication n. 
+border n. 
+ cancer n. 
+chocolate n. 
+community n. 
+ candidate n. 
+ choice n. 
+ company n. 
+cap n. 
+ church n. 
+ comparison n. 
+ cigarette n. 
+boss n. 
+capacity n. 
+cinema n. 
+ competition n. 
+captain n. 
+ circumstance n. 
+ competitor n. 
+bottle n. 
+car n. 
+ citizen n. 
+complaint n. 
+bowl n. 
+card n. 
+city n. 
+box n. 
+boy n. 
+ career n. 
+boyfriend n. 
+ class n. 
+brain n. 
+component n. 
+computer n. 
+ council n. 
+debt n. 
+concentration n. 
+country n. 
+ decade n. 
+difficulty n. 
+concept n. 
+countryside n. 
+ December n. 
+county n. 
+couple n. 
+dinner n. 
+concert n. 
+courage n. 
+ decision n. 
+ course n. 
+ direction n. 
+conclusion n. 
+ court n. 
+condition n. 
+cousin n. 
+director n. 
+decoration n. 
+dirt n. 
+conference n. 
+confidence n. 
+ cow n. 
+ disadvantage n. 
+ cream n. 
+defence n. 
+ creation n. 
+disaster n. 
+disc n. 
+creature n. 
+discipline n. 
+credit n. 
+ definition n. 
+discount n. 
+connection n. 
+ crew n. 
+degree n. 
+crime n. 
+ discovery n. 
+consequence n. 
+criminal n. 
+ crisis n. 
+discussion n. 
+ criterion n. 
+ disease n. 
+consideration n. 
+critic n. 
+ dish n. 
+ criticism n. 
+ delivery n. 
+ crop n. 
+ distance n. 
+construction n. 
+ crowd n. 
+ dentist n. 
+distribution n. 
+consumer n. 
+ department n. 
+district n. 
+ departure n. 
+division n. 
+container n. 
+ culture n. 
+content1 n. 
+ cup n. 
+ depth n. 
+ doctor n. 
+cupboard n. 
+document n. 
+context n. 
+description n. 
+ documentary n. 
+continent n. 
+ desert n. 
+ dog n. 
+ currency n. 
+ dollar n. 
+ designer n. 
+ curtain n. 
+ desk n. 
+door n. 
+contribution n. 
+custom n. 
+ customer n. 
+destination n. 
+conversation n. 
+ detail n. 
+ dad n. 
+detective n. 
+cooker n. 
+cooking n. 
+dancer n. 
+dancing n. 
+ drama n. 
+ danger n. 
+development n. 
+ device n. 
+corner n. 
+ diagram n. 
+ drawing n. 
+data n. 
+dialogue n. 
+date n. 
+ diamond n. 
+daughter n. 
+diary n. 
+ day n. 
+ dictionary n. 
+costume n. 
+cottage n. 
+ diet n. 
+driver n. 
+cotton n. 
+difference n. 
+driving n. 
+death n. 
+drug n. 
+ ending n. 
+ existence n. 
+feeling n. 
+drum n. 
+ enemy n. 
+energy n. 
+ expectation n. 
+fence n. 
+ festival n. 
+engine n. 
+ expedition n. 
+dust n. 
+ engineer n. 
+ expense n. 
+fiction n. 
+duty n. 
+ engineering n. 
+field n. 
+DVD n. 
+experience n. 
+fifteen number 
+ear n. 
+ experiment n. 
+fifty number 
+ enquiry n. 
+fighting n. 
+earth n. 
+ explanation n. 
+figure n. 
+earthquake n. 
+file n. 
+exploration n. 
+ entertainment n. 
+film n. 
+enthusiasm n. 
+ explosion n. 
+economy n. 
+entrance n. 
+ expression n. 
+edge n. 
+ entry n. 
+ finding n. 
+ environment n. 
+extent n. 
+edition n. 
+ finger n. 
+editor n. 
+ episode n. 
+fire n. 
+ firm n. 
+education n. 
+equipment n. 
+error n. 
+eye n. 
+effect n. 
+ face n. 
+fish n. 
+ facility n. 
+ fishing n. 
+essay n. 
+fact n. 
+factor n. 
+ fitness n. 
+effort n. 
+factory n. 
+five number 
+egg n. 
+estate n. 
+eight number 
+ failure n. 
+eighteen number 
+ flag n. 
+eighty number 
+ euro n. 
+ flame n. 
+ faith n. 
+flat n. 
+evening n. 
+election n. 
+ event n. 
+ flight n. 
+electricity n. 
+fan n. 
+floor n. 
+flour n. 
+element n. 
+elephant n. 
+ flower n. 
+eleven number 
+farm n. 
+ flu n. 
+ farmer n. 
+evidence n. 
+ farming n. 
+fashion n. 
+ exam n. 
+emergency n. 
+examination n. 
+emotion n. 
+example n. 
+father n. 
+ food n. 
+emphasis n. 
+fault n. 
+foot n. 
+favour n. 
+football n. 
+employee n. 
+fear n. 
+employer n. 
+ excitement n. 
+ feather n. 
+employment n. 
+ feature n. 
+ forest n. 
+ February n. 
+fee n. 
+exhibition n. 
+ feedback n. 
+ fork n. 
+ hearing n. 
+glass n. 
+heart n. 
+husband n. 
+fortune n. 
+forty number 
+glove n. 
+heating n. 
+ice n. 
+heaven n. 
+ ice cream n. 
+goal n. 
+idea n. 
+four number 
+ god n. 
+fourteen number 
+ heel n. 
+fourth number 
+ golf n. 
+ height n. 
+ identity n. 
+helicopter n. 
+hell n. 
+freedom n. 
+goods n. 
+frequency n. 
+government n. 
+illness n. 
+grade n. 
+ illustration n. 
+Friday n. 
+hero n. 
+ image n. 
+fridge n. 
+friend n. 
+ grain n. 
+ imagination n. 
+friendship n. 
+ grandfather n. 
+ grandmother n. 
+ grandparent n. 
+ immigrant n. 
+frog n. 
+ grass n. 
+hill n. 
+ importance n. 
+fruit n. 
+fuel n. 
+ground n. 
+ group n. 
+fun n. 
+ growth n. 
+ history n. 
+impression n. 
+function n. 
+hobby n. 
+hockey n. 
+ improvement n. 
+funding n. 
+guest n. 
+hole n. 
+ inch n. 
+fur n. 
+ holiday n. 
+incident n. 
+furniture n. 
+guitar n. 
+ gun n. 
+guy n. 
+future n. 
+gym n. 
+homework n. 
+ income n. 
+ habit n. 
+gallery n. 
+hair n. 
+game n. 
+gang n. 
+ hall n. 
+gap n. 
+hand n. 
+horror n. 
+garage n. 
+ horse n. 
+garden n. 
+ hospital n. 
+gas n. 
+ host n. 
+gate n. 
+ happiness n. 
+hotel n. 
+hour n. 
+ house n. 
+ household n. 
+industry n. 
+generation n. 
+ housing n. 
+infection n. 
+genre n. 
+hat n. 
+gentleman n. 
+information n. 
+geography n. 
+ ingredient n. 
+humour n. 
+ghost n. 
+head n. 
+hundred number 
+headache n. 
+ initiative n. 
+gift n. 
+ headline n. 
+girl n. 
+ health n. 
+ hunting n. 
+girlfriend n. 
+hurricane n. 
+injury n. 
+ June n. 
+ length n. 
+insect n. 
+ lesson n. 
+ justice n. 
+insight n. 
+letter n. 
+ level n. 
+ majority n. 
+ library n. 
+ licence n. 
+instance n. 
+keyboard n. 
+mall n. 
+ man n. 
+institute n. 
+ kid n. 
+life n. 
+institution n. 
+ lifestyle n. 
+ management n. 
+instruction n. 
+ killing n. 
+manager n. 
+instructor n. 
+kilometre n. 
+instrument n. 
+kind (type) n. 
+insurance n. 
+ map n. 
+intelligence n. 
+king n. 
+ March n. 
+kitchen n. 
+ n. 
+market n. 
+knee n. 
+marketing n. 
+ knife n. 
+ marriage n. 
+intention n. 
+ line n. 
+knowledge n. 
+ lab n. 
+lion n. 
+lip n. 
+ laboratory n. 
+internet n. 
+labour n. 
+ lady n. 
+ listener n. 
+material n. 
+ lake n. 
+ literature n. 
+mathematics n. 
+ lamp n. 
+ maths n. 
+ land n. 
+introduction n. 
+landscape n. 
+language n. 
+May n. 
+invention n. 
+ laptop n. 
+loan n. 
+investigation n. 
+meal n. 
+investment n. 
+invitation n. 
+ meaning n. 
+ location n. 
+means n. 
+laughter n. 
+measurement n. 
+island n. 
+ meat n. 
+issue n. 
+law n. 
+ media n. 
+IT n. 
+lawyer n. 
+ medicine n. 
+item n. 
+layer n. 
+lord n. 
+ lorry n. 
+meeting n. 
+jacket n. 
+leader n. 
+ loss n. 
+jam n. 
+ leadership n. 
+member n. 
+January n. 
+memory n. 
+jazz n. 
+leaf n. 
+jeans n. 
+ league n. 
+jewellery n. 
+menu n. 
+job n. 
+learning n. 
+message n. 
+ metal n. 
+journal n. 
+ leather n. 
+luck n. 
+method n. 
+journalist n. 
+ metre n. 
+journey n. 
+lunch n. 
+joy n. 
+ lung n. 
+midnight n. 
+ leg n. 
+luxury n. 
+judgement n. 
+machine n. 
+juice n. 
+ leisure n. 
+ mile n. 
+July n. 
+lemon n. 
+magazine n. 
+ milk n. 
+million number 
+ nature n. 
+ October n. 
+ package n. 
+ page n. 
+ nearly adv. 
+ pain n. 
+mine (hole in the ground) n. 
+ neat adj. 
+mineral n. 
+ necessarily adv. 
+offence n. 
+ necessary adj. 
+painter n. 
+minister n. 
+neck n. 
+ painting n. 
+ need v. 
+ pair n. 
+minority n. 
+needle n. 
+ office n. 
+palace n. 
+minute1 n. 
+ negative adj. 
+officer n. 
+mirror n. 
+neighbour n. 
+ pan n. 
+neighbourhood n. 
+ panel n. 
+ neither det./pron. 
+ pants n. 
+mission n. 
+ nerve n. 
+oil n. 
+ paper n. 
+mistake n. 
+paragraph n. 
+ net n. 
+ parent n. 
+ network n. 
+mixture n. 
+ never adv. 
+ parking n. 
+parliament n. 
+model n. 
+ part n. 
+news n. 
+ onion n. 
+ participant n. 
+newspaper n. 
+moment n. 
+Monday n. 
+money n. 
+ nice adj. 
+ night n. 
+opening n. 
+ partner n. 
+monkey n. 
+nightmare n. 
+ party n. 
+month n. 
+ nine number 
+ operation n. 
+mood n. 
+nineteen number 
+ opinion n. 
+ passage n. 
+moon n. 
+ninety number 
+ opponent n. 
+passenger n. 
+opportunity n. 
+ passion n. 
+passport n. 
+morning n. 
+ nobody pron. 
+noise n. 
+ path n. 
+opposition n. 
+patient n. 
+mother n. 
+option n. 
+pattern n. 
+ nor conj./adv. 
+motorcycle n. 
+payment n. 
+ normally adv. 
+ peace n. 
+mountain n. 
+mouse n. 
+ northern adj. 
+ organ n. 
+ pen n. 
+mouth n. 
+ nose n. 
+ organization n. 
+pencil n. 
+ not adv. 
+penny n. 
+movement n. 
+note n. 
+ pension1 n. 
+movie n. 
+ nothing pron. 
+ organizer n. 
+ people n. 
+ origin n. 
+pepper n. 
+mud n. 
+ notion n. 
+novel n. 
+November n. 
+ percentage n. 
+mum n. 
+ now adv. 
+muscle n. 
+museum n. 
+number n. 
+ performance n. 
+music n. 
+ numerous adj. 
+nurse n. 
+ period n. 
+musician n. 
+nut n. 
+outcome n. 
+ permission n. 
+object n. 
+ person n. 
+obligation n. 
+mystery n. 
+ observation n. 
+nail n. 
+ oven n. 
+perspective n. 
+ pet n. 
+nation n. 
+occasion n. 
+ petrol n. 
+phase n. 
+owner n. 
+ phenomenon n. 
+ ocean n. 
+philosophy n. 
+photo n. 
+poster n. 
+photograph n. 
+pot n. 
+proof n. 
+photographer n. 
+ potato n. 
+photography n. 
+ reality n. 
+phrase n. 
+ pound n. 
+property n. 
+ proposal n. 
+physics n. 
+poverty n. 
+reason n. 
+piano n. 
+powder n. 
+ prospect n. 
+power n. 
+picture n. 
+ protection n. 
+ receipt n. 
+piece n. 
+pig n. 
+practice n. 
+pilot n. 
+reception n. 
+ psychologist n. 
+ recipe n. 
+ prayer n. 
+ psychology n. 
+pipe n. 
+pub n. 
+pitch n. 
+prediction n. 
+ recommendation n. 
+place n. 
+ publication n. 
+recording n. 
+ preparation n. 
+plane n. 
+planet n. 
+ punishment n. 
+planning n. 
+ presence n. 
+ pupil n. 
+plant n. 
+ reduction n. 
+presentation n. 
+plate n. 
+ reference n. 
+platform n. 
+ president n. 
+purpose n. 
+player n. 
+ pressure n. 
+region n. 
+ qualification n. 
+pleasure n. 
+ quality n. 
+plot n. 
+price n. 
+ quantity n. 
+ priest n. 
+ quarter n. 
+regulation n. 
+pocket n. 
+queen n. 
+poem n. 
+question n. 
+poet n. 
+ prince n. 
+poetry n. 
+ princess n. 
+relation n. 
+point n. 
+ principle n. 
+relationship n. 
+ printer n. 
+printing n. 
+police n. 
+ priority n. 
+policeman n. 
+prison n. 
+ quotation n. 
+policy n. 
+ prisoner n. 
+ privacy n. 
+race (people) n. 
+politician n. 
+ prize n. 
+racing n. 
+ relief n. 
+politics n. 
+ radio n. 
+religion n. 
+pollution n. 
+problem n. 
+railway n. 
+pool n. 
+ procedure n. 
+ process n. 
+ range n. 
+producer n. 
+popularity n. 
+ product n. 
+population n. 
+ production n. 
+port n. 
+ profession n. 
+portrait n. 
+ professor n. 
+rate n. 
+position n. 
+profile n. 
+profit n. 
+program n. 
+possession n. 
+ programme n. 
+possibility n. 
+progress n. 
+reaction n. 
+ report n. 
+ project n. 
+ reporter n. 
+reader n. 
+reading n. 
+reputation n. 
+ September n. 
+request n. 
+sequence n. 
+series n. 
+requirement n. 
+safety n. 
+servant n. 
+researcher n. 
+sailing n. 
+ singer n. 
+reservation n. 
+ sailor n. 
+ service n. 
+ singing n. 
+ salad n. 
+session n. 
+salary n. 
+sale n. 
+ set (group) n. 
+ sir n. 
+ salt n. 
+ setting n. 
+ sister n. 
+resort n. 
+resource n. 
+sample n. 
+seven number 
+ site n. 
+ sand n. 
+ seventeen number 
+ situation n. 
+ sandwich n. 
+ seventy number 
+ six number 
+response n. 
+satellite n. 
+ sixteen number 
+responsibility n. 
+sixty number 
+sex n. 
+ size n. 
+rest (remaining part) n. 
+ Saturday n. 
+sauce n. 
+shade n. 
+ skiing n. 
+restaurant n. 
+ shadow n. 
+skill n. 
+result n. 
+ saving n. 
+skin n. 
+ skirt n. 
+scale n. 
+ sky n. 
+ shame n. 
+ slave n. 
+ shape n. 
+scene n. 
+schedule n. 
+revolution n. 
+scheme n. 
+ sheep n. 
+school n. 
+ sheet n. 
+rhythm n. 
+science n. 
+shelf n. 
+rice n. 
+ shell n. 
+scientist n. 
+shift n. 
+ screen n. 
+ smartphone n. 
+ring1 n. 
+ script n. 
+ ship n. 
+sculpture n. 
+shirt n. 
+ sea n. 
+ smoking n. 
+river n. 
+ season n. 
+ shoe n. 
+road n. 
+seat n. 
+ snake n. 
+robot n. 
+ second1 (next after the first) det./ shooting n. 
+rock (stone) n. 
+rock (music) n. 
+second1 (unit of time) n. 
+ shopping n. 
+soap n. 
+role n. 
+ soccer n. 
+ shot n. 
+society n. 
+roof n. 
+secretary n. 
+shoulder n. 
+sock n. 
+room n. 
+section n. 
+root n. 
+sector n. 
+software n. 
+rope n. 
+ shower n. 
+soil n. 
+ security n. 
+ soldier n. 
+route n. 
+ seed n. 
+routine n. 
+ side n. 
+solution n. 
+row1 n. 
+ sight n. 
+ selection n. 
+self n. 
+rubbish n. 
+ silence n. 
+rugby n. 
+rule n. 
+ sense n. 
+ silk n. 
+ son n. 
+runner n. 
+song n. 
+running n. 
+ sentence n. 
+similarity n. 
+sort n. 
+ system n. 
+soul n. 
+ stranger n. 
+table n. 
+ thought n. 
+strategy n. 
+tablet n. 
+thousand number 
+soup n. 
+ stream n. 
+tail n. 
+threat n. 
+source n. 
+ street n. 
+strength n. 
+tale n. 
+three number 
+talent n. 
+throat n. 
+space n. 
+speaker n. 
+string n. 
+tank n. 
+Thursday n. 
+tape n. 
+species n. 
+target n. 
+ ticket n. 
+ structure n. 
+task n. 
+speech n. 
+ student n. 
+speed n. 
+ studio n. 
+taxi n. 
+ tea n. 
+ time n. 
+spelling n. 
+ stuff n. 
+ tin n. 
+teacher n. 
+spending n. 
+ style n. 
+ teaching n. 
+tip n. 
+subject n. 
+team n. 
+spider n. 
+ title n. 
+spirit n. 
+ substance n. 
+ tear2 n. 
+success n. 
+ technique n. 
+ toe n. 
+technology n. 
+ toilet n. 
+spoon n. 
+teenager n. 
+tomato n. 
+sport n. 
+spot n. 
+television n. 
+tone n. 
+tongue n. 
+spring n. 
+sugar n. 
+ temperature n. 
+ suggestion n. 
+ten number 
+ tool n. 
+stadium n. 
+suit n. 
+tooth n. 
+staff n. 
+tennis n. 
+stage n. 
+ tent n. 
+topic n. 
+stair n. 
+ term n. 
+stamp n. 
+summary n. 
+ summer n. 
+ sun n. 
+ text n. 
+star n. 
+Sunday n. 
+ tour n. 
+supermarket n. 
+ tourism n. 
+ tourist n. 
+state n. 
+statement n. 
+supporter n. 
+ towel n. 
+station n. 
+ theatre n. 
+ tower n. 
+statistic n. 
+ town n. 
+statue n. 
+status n. 
+ surface n. 
+ track n. 
+surgery n. 
+ theme n. 
+ tradition n. 
+steel n. 
+theory n. 
+traffic n. 
+therapy n. 
+ train n. 
+step n. 
+ trainer n. 
+ survey n. 
+ training n. 
+stick (piece of wood) n. 
+ thief n. 
+ transition n. 
+ sweater n. 
+stock n. 
+ thing n. 
+ translation n. 
+stomach n. 
+ transport n. 
+stone n. 
+ thinking n. 
+ swimming n. 
+third number 
+traveller n. 
+store n. 
+storm n. 
+symbol n. 
+thirteen number 
+treatment n. 
+story n. 
+sympathy n. 
+thirty number 
+tree n. 
+ symptom n. 
+ trend n. 
+trial n. 
+war n. 
+ window n. 
+trip n. 
+ wine n. 
+wing n. 
+trouble n. 
+warning n. 
+ winner n. 
+trousers n. 
+ winter n. 
+truck n. 
+washing n. 
+ wire n. 
+ water n. 
+truth n. 
+wave n. 
+ way n. 
+T-shirt n. 
+tube n. 
+woman n. 
+Tuesday n. 
+weakness n. 
+tune n. 
+ wealth n. 
+tunnel n. 
+ user n. 
+ wood n. 
+weapon n. 
+TV n. 
+wool n. 
+twelve number 
+ vacation n. 
+ weather n. 
+ word n. 
+twenty number 
+ valley n. 
+ web n. 
+ website n. 
+ worker n. 
+ value n. 
+ wedding n. 
+two number 
+van n. 
+Wednesday n. 
+ world n. 
+type n. 
+variety n. 
+week n. 
+weekend n. 
+tyre n. 
+ weight n. 
+ vegetable n. 
+ vehicle n. 
+umbrella n. 
+ venue n. 
+ version n. 
+uncle n. 
+victim n. 
+ victory n. 
+wheel n. 
+ writer n. 
+video n. 
+writing n. 
+ view n. 
+understanding n. 
+viewer n. 
+underwear n. 
+village n. 
+yard n. 
+ violence n. 
+unemployment n. 
+year n. 
+ virus n. 
+vision n. 
+uniform n. 
+visitor n. 
+union n. 
+unit n. 
+ vitamin n. 
+ voice n. 
+universe n. 
+ volume n. 
+youth n. 
+university n. 
+zero number 
+ wife n. 
+zone n. 
+wage n. 
+wildlife n. 
+ waiter n. 
+ wall n. 
+ wind1 n. 
